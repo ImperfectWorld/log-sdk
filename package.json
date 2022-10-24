@@ -1,0 +1,26 @@
+{
+  "name": "log-sdk-beacon",
+  "version": "1.0.2",
+  "description": "前端监控上报pv/uv/event/error",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "browse": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "keywords": ["前端", "埋点", "log", "错误监控"],
+  "author": "lee",
+  "files": ["dist"],
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ImperfectWorld/log-sdk.git"
+  },
+  "devDependencies": {
+    "rollup": "^2.76.0",
+    "rollup-plugin-dts": "^4.2.2",
+    "rollup-plugin-typescript2": "^0.32.1",
+    "typescript": "^4.7.4"
+  }
+}
